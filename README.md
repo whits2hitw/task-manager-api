@@ -44,7 +44,7 @@ npm run test:watch
 ## 📑 Documentação dos Endpoints
 
 🔐 Autenticação e Usuários
-POST /sessions: Cadastro de novo usuário.
+POST /users: Cadastro de novo usuário.
 
 POST /sessions: Login e geração do Token JWT.
 
