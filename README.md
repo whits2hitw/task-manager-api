@@ -2,44 +2,44 @@
 
 ### 1. Clonar o repositório e instalar dependências
 
-\`\`\`bash
+```bash
 git clone https://github.com/seu-usuario/task-manager-api.git
 cd task-manager-api
 npm install
-\`\`\`
+```
 
 ### 2. Configurar variáveis de ambiente
 Crie um arquivo .env na raiz do projeto seguindo o modelo:
-\`\`\`bash
+```bash
 DATABASE_URL="file:./dev.db"
 JWT_SECRET="sua_chave_secreta_aqui"
 PORT=3333
-\`\`\`
+```
 
 ### 2. Rodar as migrações do banco de dados
-\`\`\`bash
+```bash
 npx prisma migrate dev
-\`\`\`
+```
 
 ### 2. Iniciar o servidor em modo de desenvolvimento
 Crie um arquivo .env na raiz do projeto seguindo o modelo:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 ## 🧪 Como Rodar os Testes
 
 Para garantir que todos os requisitos foram cumpridos e os endpoints críticos estão funcionando:
 
 ### Executar todos os testes uma única vez
-\`\`\`bash
+```bash
 npm test
-\`\`\`
+```
 
 ### Executar testes em modo "Watch" (Desenvolvimento)
-\`\`\`bash
+```bash
 npm run test:watch
-\`\`\`
+```
 
 ## 📑 Documentação dos Endpoints
 
