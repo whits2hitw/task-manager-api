@@ -16,13 +16,12 @@ JWT_SECRET="sua_chave_secreta_aqui"
 PORT=3333
 ```
 
-### 2. Rodar as migrações do banco de dados
+### 3. Rodar as migrações do banco de dados
 ```bash
 npx prisma migrate dev
 ```
 
-### 2. Iniciar o servidor em modo de desenvolvimento
-Crie um arquivo .env na raiz do projeto seguindo o modelo:
+### 4. Iniciar o servidor em modo de desenvolvimento
 ```bash
 npm run dev
 ```
