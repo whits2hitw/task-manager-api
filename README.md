@@ -3,7 +3,7 @@
 ### 1. Clonar o repositório e instalar dependências
 
 ```bash
-git clone https://github.com/seu-usuario/task-manager-api.git
+git clone https://github.com/whits2hitw/task-manager-api.git
 cd task-manager-api
 npm install
 ```
